@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,15 +14,54 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Libreria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3kn-8V-0Or">
+                                <rect key="frame" x="21.666666666666657" y="69" width="387" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="busqueda-de-lupa.png" translatesAutoresizingMaskIntoConstraints="NO" id="2eJ-7d-zbC">
+                                        <rect key="frame" x="347" y="5" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="NMQ-zF-jaG"/>
+                                            <constraint firstAttribute="width" secondItem="2eJ-7d-zbC" secondAttribute="height" multiplier="1:1" id="a6D-Qd-tFK"/>
+                                            <constraint firstAttribute="height" constant="30" id="nR3-8g-9L5"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BDc-M5-beZ"/>
+                                    <constraint firstItem="2eJ-7d-zbC" firstAttribute="top" secondItem="3kn-8V-0Or" secondAttribute="top" constant="5" id="ZWC-d8-D8R"/>
+                                    <constraint firstAttribute="trailing" secondItem="2eJ-7d-zbC" secondAttribute="trailing" constant="10" id="tyZ-DR-3B9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T16-Qj-Rby">
+                                <rect key="frame" x="0.0" y="109" width="430" height="789"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.4823529411764706" green="0.29803921568627451" blue="0.47843137254901957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3kn-8V-0Or" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="953-IO-edQ"/>
+                            <constraint firstItem="3kn-8V-0Or" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F8Z-K6-snM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="T16-Qj-Rby" secondAttribute="bottom" id="NYn-JF-IAe"/>
+                            <constraint firstItem="3kn-8V-0Or" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="UEV-gm-mZS"/>
+                            <constraint firstItem="T16-Qj-Rby" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kqW-JM-gAW"/>
+                            <constraint firstItem="T16-Qj-Rby" firstAttribute="top" secondItem="3kn-8V-0Or" secondAttribute="bottom" id="nmL-tV-sH5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T16-Qj-Rby" secondAttribute="trailing" id="yEJ-f5-Kgk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-27"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="busqueda-de-lupa.png" width="271.058837890625" height="271.058837890625"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

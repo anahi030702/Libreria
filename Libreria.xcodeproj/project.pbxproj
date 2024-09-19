@@ -14,6 +14,7 @@
 		8809BB0D2C9B841300980DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB0C2C9B841300980DB5 /* Assets.xcassets */; };
 		8809BB102C9B841300980DB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB0F2C9B841300980DB5 /* Base */; };
 		8809BB382C9B888500980DB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB372C9B888500980DB5 /* 2.jpg */; };
+		889D21262C9CE1D200E36F07 /* busqueda-de-lupa.png in Resources */ = {isa = PBXBuildFile; fileRef = 889D21252C9CE1D200E36F07 /* busqueda-de-lupa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8809BB0F2C9B841300980DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8809BB112C9B841300980DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8809BB372C9B888500980DB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		889D21252C9CE1D200E36F07 /* busqueda-de-lupa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "busqueda-de-lupa.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		8809BB392C9B889400980DB5 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				889D21252C9CE1D200E36F07 /* busqueda-de-lupa.png */,
 				8809BB372C9B888500980DB5 /* 2.jpg */,
 			);
 			path = Imagenes;
@@ -138,6 +141,7 @@
 			files = (
 				8809BB0D2C9B841300980DB5 /* Assets.xcassets in Resources */,
 				8809BB102C9B841300980DB5 /* Base in Resources */,
+				889D21262C9CE1D200E36F07 /* busqueda-de-lupa.png in Resources */,
 				8809BB382C9B888500980DB5 /* 2.jpg in Resources */,
 				8809BB0B2C9B841100980DB5 /* Base in Resources */,
 			);
