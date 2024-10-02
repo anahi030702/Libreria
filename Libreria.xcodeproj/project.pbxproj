@@ -14,6 +14,11 @@
 		8809BB0D2C9B841300980DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB0C2C9B841300980DB5 /* Assets.xcassets */; };
 		8809BB102C9B841300980DB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB0F2C9B841300980DB5 /* Base */; };
 		8809BB382C9B888500980DB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8809BB372C9B888500980DB5 /* 2.jpg */; };
+		8863973A2CADDA110051F923 /* SEGUNDA_ElLibroSalvaje.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886397392CADDA110051F923 /* SEGUNDA_ElLibroSalvaje.jpg */; };
+		8863973C2CADDA230051F923 /* SEGUNDA_ElAlquimista.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8863973B2CADDA230051F923 /* SEGUNDA_ElAlquimista.jpg */; };
+		8863973E2CADDDBC0051F923 /* SEGUNDA_BajoLaMismaEstrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8863973D2CADDDBC0051F923 /* SEGUNDA_BajoLaMismaEstrella.jpg */; };
+		886397402CADDE320051F923 /* SEGUNDA_CiudadesDePapel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863973F2CADDE320051F923 /* SEGUNDA_CiudadesDePapel.png */; };
+		886397422CADDE980051F923 /* SEGUNDA_ViajoSola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886397412CADDE980051F923 /* SEGUNDA_ViajoSola.jpg */; };
 		8867844F2CA76A0F00A50164 /* PORTADA_ElAlquimista.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8867844E2CA76A0F00A50164 /* PORTADA_ElAlquimista.jpg */; };
 		886784512CA76D6200A50164 /* PORTADA_BajoLaMismaEstrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886784502CA76D6200A50164 /* PORTADA_BajoLaMismaEstrella.jpg */; };
 		88883E762CAB3FB10041C045 /* PORTADA_CiudadesDePapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88883E752CAB3FB10041C045 /* PORTADA_CiudadesDePapel.jpg */; };
@@ -35,6 +40,11 @@
 		8809BB0F2C9B841300980DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8809BB112C9B841300980DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8809BB372C9B888500980DB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		886397392CADDA110051F923 /* SEGUNDA_ElLibroSalvaje.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEGUNDA_ElLibroSalvaje.jpg; sourceTree = "<group>"; };
+		8863973B2CADDA230051F923 /* SEGUNDA_ElAlquimista.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEGUNDA_ElAlquimista.jpg; sourceTree = "<group>"; };
+		8863973D2CADDDBC0051F923 /* SEGUNDA_BajoLaMismaEstrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEGUNDA_BajoLaMismaEstrella.jpg; sourceTree = "<group>"; };
+		8863973F2CADDE320051F923 /* SEGUNDA_CiudadesDePapel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SEGUNDA_CiudadesDePapel.png; sourceTree = "<group>"; };
+		886397412CADDE980051F923 /* SEGUNDA_ViajoSola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEGUNDA_ViajoSola.jpg; sourceTree = "<group>"; };
 		8867844E2CA76A0F00A50164 /* PORTADA_ElAlquimista.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PORTADA_ElAlquimista.jpg; sourceTree = "<group>"; };
 		886784502CA76D6200A50164 /* PORTADA_BajoLaMismaEstrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PORTADA_BajoLaMismaEstrella.jpg; sourceTree = "<group>"; };
 		88883E752CAB3FB10041C045 /* PORTADA_CiudadesDePapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PORTADA_CiudadesDePapel.jpg; sourceTree = "<group>"; };
@@ -91,6 +101,11 @@
 		8809BB392C9B889400980DB5 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				886397412CADDE980051F923 /* SEGUNDA_ViajoSola.jpg */,
+				8863973F2CADDE320051F923 /* SEGUNDA_CiudadesDePapel.png */,
+				8863973D2CADDDBC0051F923 /* SEGUNDA_BajoLaMismaEstrella.jpg */,
+				8863973B2CADDA230051F923 /* SEGUNDA_ElAlquimista.jpg */,
+				886397392CADDA110051F923 /* SEGUNDA_ElLibroSalvaje.jpg */,
 				88883E7B2CAB4B5F0041C045 /* info.png */,
 				88883E792CAB460B0041C045 /* PORTADA_ViajoSola.jpg */,
 				88883E772CAB42210041C045 /* PORTADA_ElLibroSalvaje.jpg */,
@@ -163,14 +178,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886397402CADDE320051F923 /* SEGUNDA_CiudadesDePapel.png in Resources */,
+				8863973E2CADDDBC0051F923 /* SEGUNDA_BajoLaMismaEstrella.jpg in Resources */,
 				88C2C50D2CA6179D00045B2A /* SEGUNDA_DeMiParaMi.jpeg in Resources */,
 				8809BB0D2C9B841300980DB5 /* Assets.xcassets in Resources */,
 				8809BB102C9B841300980DB5 /* Base in Resources */,
 				88C2C5162CA62C2F00045B2A /* PORTADA_DeMiParaMi.jpg in Resources */,
+				886397422CADDE980051F923 /* SEGUNDA_ViajoSola.jpg in Resources */,
 				8867844F2CA76A0F00A50164 /* PORTADA_ElAlquimista.jpg in Resources */,
 				88883E762CAB3FB10041C045 /* PORTADA_CiudadesDePapel.jpg in Resources */,
+				8863973A2CADDA110051F923 /* SEGUNDA_ElLibroSalvaje.jpg in Resources */,
 				88883E782CAB42210041C045 /* PORTADA_ElLibroSalvaje.jpg in Resources */,
 				889D21262C9CE1D200E36F07 /* busqueda-de-lupa.png in Resources */,
+				8863973C2CADDA230051F923 /* SEGUNDA_ElAlquimista.jpg in Resources */,
 				886784512CA76D6200A50164 /* PORTADA_BajoLaMismaEstrella.jpg in Resources */,
 				8809BB382C9B888500980DB5 /* 2.jpg in Resources */,
 				88883E7A2CAB460B0041C045 /* PORTADA_ViajoSola.jpg in Resources */,
